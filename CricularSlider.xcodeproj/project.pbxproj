@@ -14,6 +14,8 @@
 		493AAFFA2CC00CDE008ABA00 /* CricularSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AAFF92CC00CDE008ABA00 /* CricularSliderTests.swift */; };
 		493AB0042CC00CDE008ABA00 /* CricularSliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AB0032CC00CDE008ABA00 /* CricularSliderUITests.swift */; };
 		493AB0062CC00CDE008ABA00 /* CricularSliderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AB0052CC00CDE008ABA00 /* CricularSliderUITestsLaunchTests.swift */; };
+		493AB0142CC00D07008ABA00 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AB0132CC00D07008ABA00 /* Home.swift */; };
+		493AB0162CC00D35008ABA00 /* CircularSliderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AB0152CC00D35008ABA00 /* CircularSliderApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		493AAFFF2CC00CDE008ABA00 /* CricularSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricularSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		493AB0032CC00CDE008ABA00 /* CricularSliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricularSliderUITests.swift; sourceTree = "<group>"; };
 		493AB0052CC00CDE008ABA00 /* CricularSliderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricularSliderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		493AB0132CC00D07008ABA00 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		493AB0152CC00D35008ABA00 /* CircularSliderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularSliderApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +98,12 @@
 		493AAFE72CC00CDD008ABA00 /* CricularSlider */ = {
 			isa = PBXGroup;
 			children = (
+				493AB0122CC00CFB008ABA00 /* View */,
 				493AAFE82CC00CDD008ABA00 /* CricularSliderApp.swift */,
 				493AAFEA2CC00CDD008ABA00 /* ContentView.swift */,
 				493AAFEC2CC00CDE008ABA00 /* Assets.xcassets */,
 				493AAFEE2CC00CDE008ABA00 /* Preview Content */,
+				493AB0152CC00D35008ABA00 /* CircularSliderApp.swift */,
 			);
 			path = CricularSlider;
 			sourceTree = "<group>";
@@ -125,6 +131,14 @@
 				493AB0052CC00CDE008ABA00 /* CricularSliderUITestsLaunchTests.swift */,
 			);
 			path = CricularSliderUITests;
+			sourceTree = "<group>";
+		};
+		493AB0122CC00CFB008ABA00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				493AB0132CC00D07008ABA00 /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				493AAFEB2CC00CDD008ABA00 /* ContentView.swift in Sources */,
+				493AB0142CC00D07008ABA00 /* Home.swift in Sources */,
 				493AAFE92CC00CDD008ABA00 /* CricularSliderApp.swift in Sources */,
+				493AB0162CC00D35008ABA00 /* CircularSliderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

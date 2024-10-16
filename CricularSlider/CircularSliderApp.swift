@@ -1,5 +1,5 @@
 //
-//  CricularSliderApp.swift
+//  CircularSliderApp.swift
 //  CricularSlider
 //
 //  Created by Naveen Ramachandrappa on 10/16/24.
@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-//@main
-struct CricularSliderApp: App {
+@main
+struct CircularSliderApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
